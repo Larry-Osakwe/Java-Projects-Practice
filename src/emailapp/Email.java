@@ -28,8 +28,8 @@ public class Email {
         System.out.println("Your password is: " + this.password);
 
         // Combine elements to generate email
-        email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
-        System.out.println("Your email is: " + email);
+        this.email = firstName.toLowerCase() + "." + lastName.toLowerCase() + "@" + department + "." + companySuffix;
+        System.out.println("Your email is: " + this.email);
     }
 
     // Ask for the department
@@ -62,10 +62,47 @@ public class Email {
         return new String(password);
     }
 
+    // Get the mailbox capacity
+    public int getMailboxCapacity() {
+        return mailboxCapacity;
+    }
+
     // Set the mailbox capacity
+    public void setMailboxCapacity(int capacity) {
+        this.mailboxCapacity = capacity;
+    }
+
+    // Get the alternate email
+    public String getAlternateEmail() {
+        return alternateEmail;
+    }
 
     // Set the alternate email
+    public void setAlternateEmail(String altEmail) {
+        this.alternateEmail = altEmail;
+    }
+
+    // Get the password
+    public String getPassword() {
+        return password;
+    }
 
     // Change the password
+    public void changePassword(String password) {
+        this.password = password;
+    }
 
+
+    @Override
+    public String toString() {
+        return "Email{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", password='" + password + '\'' +
+                ", department='" + department + '\'' +
+                ", email='" + email + '\'' +
+                ", mailboxCapacity=" + mailboxCapacity +
+                ", alternateEmail='" + alternateEmail + '\'' +
+                '}';
+    }
 }
