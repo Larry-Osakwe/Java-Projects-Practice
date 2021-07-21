@@ -2,11 +2,11 @@ package bankaccountapp;
 
 public abstract class Account implements IBaseRate {
     // List common properties for savings and checking accounts
-    String name;
-    String sSN;
-    double balance;
-    String accountNumber;
-    double rate;
+    private String name;
+    private String sSN;
+    private double balance;
+    protected String accountNumber;
+    protected double rate;
 
     static int index = 10000;
 
