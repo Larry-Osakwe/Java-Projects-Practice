@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a4c7e9a-c3e2-4fb1-b3c3-a1f9eb3e46e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JProjs/studentdatabaseapp/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JProjs/studentdatabaseapp/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JProjs/studentdatabaseapp/StudentDatabaseApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JProjs/studentdatabaseapp/StudentDatabaseApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/studentdatabaseapp/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentdatabaseapp/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/studentdatabaseapp/StudentDatabaseApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/studentdatabaseapp/StudentDatabaseApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
